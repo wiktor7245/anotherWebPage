@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: monospace;
+}
+
+header {
+    /*darker background - dark color on top of the image*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav {
+    /*right side*/
+    float: right;
+    /*disabling the dots*/
+    list-style: none;
+    /*just a margin*/
+    margin-top: 30px;
+}
+
+.main-nav li {
+    /*making the list display like a row*/
+    display: inline-block;
+    margin: 5px;
+}
+
+.main-nav li a {
+    /*font sizes and other stuff*/
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px 20px;
+}
+
+.main-nav li a:hover {
+    border: 1px solid white;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo img {
+    width: 150px;
+    height: 80px;
+    float: left;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.hero {
+    color: white;
+    max-width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 70pt;
+    text-align: center;
+}
